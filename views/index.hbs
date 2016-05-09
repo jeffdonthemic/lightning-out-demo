@@ -1,0 +1,14 @@
+<script src="{{lightningEndPointURI}}/lightning/lightning.out.js"></script>
+
+<h1>{{title}}</h1>
+
+<script>
+  $Lightning.use(
+    "c:AccountApp",
+    function(){
+      console.log('Lightning Out Loaded!');
+    },
+    '{{lightningEndPointURI}}',
+    '{{authToken}}'
+  );
+</script>
