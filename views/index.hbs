@@ -1,12 +1,15 @@
-<script src="{{lightningEndPointURI}}/lightning/lightning.out.js"></script>
-
 <h1>{{title}}</h1>
+
+<div id='container'/>
+
+<script src="{{lightningEndPointURI}}/lightning/lightning.out.js"></script>
 
 <script>
   $Lightning.use(
-    "c:AccountApp",
+    'c:AccountApp',
     function(){
-      console.log('Lightning Out Loaded!');
+      console.log('W00t! Lightning Out Loaded!');
+      $Lightning.createComponent('c:AccountList', {}, 'container');
     },
     '{{lightningEndPointURI}}',
     '{{authToken}}'
