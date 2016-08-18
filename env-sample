@@ -1,0 +1,7 @@
+export CLIENT_ID='YOUR-CLIENT_ID'
+export CLIENT_SECRET='YOUR-CLIENT-SECRET'
+export CALLBACK_URL='https://YOUR-DOMAIN/oauth/_callback'
+export USERNAME='YOUR-USERNAME'
+export PASSWORD='YOUR-PASSSORD'
+export SECURITY_TOKEN='YOUR-SECURITY-TOKEN'
+export LIGHTNING_URL='https://jeff-lightning-out-dev-ed.lightning.force.com'
